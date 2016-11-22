@@ -1,0 +1,10 @@
+Push - experimental and minimal equivalent of a 'cf push'.
+
+Takes username/password from environment variables.
+
+Usage: java -jar push-1.0-SNAPSHOT.jar apihost organisation space appname
+
+You must set the CF_USER environment variable to a username
+You must set the CF_PASS environment variable to a password
+
+To build, run `mvn package` and get `push-1.0-SNAPSHOT.jar` from the `target` directory
